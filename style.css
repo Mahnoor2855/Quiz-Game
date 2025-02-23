@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 700px;
+    margin: 10px auto;
+    /*border: 1px solid #ccc;*/
+    row-gap: 30px;
+    place-items: center;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    transition: 0.5s ease-in all;
+    cursor: pointer;
+    border-radius: 10px;
+}
